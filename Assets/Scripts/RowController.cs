@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RowController : MonoBehaviour
 {
+    
     [SerializeField] private List<CellController> cells;
     public int CellAmount => cells.Count;
     
